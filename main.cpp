@@ -219,7 +219,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 				if (timer > 180) {//二秒経った時
 					enemy->SetPos({ rand() % 1000 + 100,-200});
 					
-					enemy->SetAlive(false);
+					enemy->SetAlive(true);
 
 					timer = 0;
 				}
